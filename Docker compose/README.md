@@ -12,7 +12,7 @@ Sistema operacional utilizado: <img align="center" alt="Linux" height="25" width
 * Faça o [download](https://github.com/davidneves11/estudos-docker/blob/main/Docker%20compose/docker-compose.yml) do arquivo e coloque-o dentro de uma pasta.
 * Abra o ***terminal*** dentro da pasta onde o `docker-compose.yml` está e execute o seguinte comando:
 
-    `docker compose up -d`
+    `docker-compose up -d`
     
     _"Através desse comando, serão criados os dois containers com a sua conexão estabelecida."_
 * Teste o funcionamento acessando o navegador através do endereço: `http://localhost:3000/`.
