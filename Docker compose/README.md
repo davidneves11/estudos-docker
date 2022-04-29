@@ -23,7 +23,7 @@ Sistema operacional utilizado: <img align="center" alt="Linux" height="25" width
  flowchart LR 
 
     
-    B(http://localhost:3000/) --> C{Apareceu os livros?}
+    B(http://localhost:3000/) --> C{Apareceram os livros?}
     C -->|Sim| D[Sucesso!]
     C -->|Não| E[http://localhost:3000/seed]
     E --> B
