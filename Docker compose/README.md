@@ -17,3 +17,14 @@ Sistema operacional utilizado: <img align="center" alt="Linux" height="25" width
     _"Através desse comando, serão criados os dois containers com a sua conexão estabelecida."_
 * Teste o funcionamento acessando o navegador através do endereço: `http://localhost:3000/`.
 * Caso somente o corpo da aplicação apareça acesse `http://localhost:3000/seed` e depois acesse `http://localhost:3000/` novamente.
+
+
+```mermaid
+ flowchart LR 
+
+    
+    B(http://localhost:3000/) --> C{Apareceu os livros?}
+    C -->|Sim| D[Sucesso!]
+    C -->|Não| E[http://localhost:3000/seed]
+    E --> B
+```
