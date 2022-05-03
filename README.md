@@ -2,6 +2,8 @@
 
  ## Neste repositório, vou documentar tudo que venho aprendendo nos meus estudos sobre _Docker_.
  
+**Projetos desenvolvidos:**
+ 
 - [X] [Construindo a minha primeira imagem através do Dockerfile](https://github.com/davidneves11/estudos-docker/tree/main/primeira%20imagem)
 - [X] [Construindo containers de forma coordenada](https://github.com/davidneves11/estudos-docker/tree/main/Docker%20compose)
 - [ ] Construindo containers e persistindo os dados
